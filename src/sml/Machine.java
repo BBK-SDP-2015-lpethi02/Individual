@@ -56,7 +56,10 @@ public class Machine {
 		System.out.println("Ending program execution.");
 
 		System.out.println("Values of registers at program termination:");
-		System.out.println(m.getRegisters().getRegister(21) + ".");
+		System.out.println(" Register 20 " + m.getRegisters().getRegister(20) + ".");
+		System.out.println(" Register 21 " + m.getRegisters().getRegister(21) + ".");
+		System.out.println(" Register 22 " + m.getRegisters().getRegister(22) + ".");
+		System.out.println(" Register 21 " + m.getRegisters().getRegister(21) + ".");
 	}
 
 	// Print the program
